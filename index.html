@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <div class="display">
+      <div class="display-history" id="history">12 +</div>
+      <div class="display-current" id="current">7</div>
+    </div>
+
+    <div class="keys">
+      <button class="key key-clear" id="clear">Clear</button>
+      <button class="key key-delete" id="delete">⌫</button>
+      <button class="key key-operator" data-operator="/">÷</button>
+
+      <button class="key key-number" data-number="7">7</button>
+      <button class="key key-number" data-number="8">8</button>
+      <button class="key key-number" data-number="9">9</button>
+      <button class="key key-operator" data-operator="*">×</button>
+
+      <button class="key key-number" data-number="4">4</button>
+      <button class="key key-number" data-number="5">5</button>
+      <button class="key key-number" data-number="6">6</button>
+      <button class="key key-operator" data-operator="-">−</button>
+
+      <button class="key key-number" data-number="1">1</button>
+      <button class="key key-number" data-number="2">2</button>
+      <button class="key key-number" data-number="3">3</button>
+      <button class="key key-operator" data-operator="+">+</button>
+
+      <button class="key key-number key-zero" data-number="0">0</button>
+      <button class="key key-number" id="decimal">.</button>
+      <button class="key key-equals" id="equals">=</button>
+    </div>
+  </main>
+</body>
+</html>
